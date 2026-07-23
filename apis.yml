@@ -1,7 +1,18 @@
 aid: 6-wunderkinder
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/6-wunderkinder.png
 name: 6 Wunderkinder
-description: 6 Wunderkinder is a company surfaced as a portfolio company of earlybird and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 6 Wunderkinder (6Wunderkinder GmbH) was a Berlin-based software startup founded in 2010 that built Wunderlist, a popular cross-platform to-do list and task management application. The company shipped a public REST API for Wunderlist in 2013, along with webhooks and integrations such as Slack and Sunrise, and rebuilt its backend into roughly 60 microservices behind a single unified API. Backed by Earlybird and Sequoia Capital, 6 Wunderkinder was acquired by Microsoft in June 2015 for a reported US$100-200M. Microsoft folded the product into Microsoft To Do and discontinued Wunderlist on 6 May 2020. This profile is retained as a historical record; the company is defunct and publishes no live API, developer portal, or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/6-wunderkinder/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,28 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Microsoft June 2015; Wunderlist discontinued 6 May 2020; all domains (6wunderkinder.com, wunderlist.com, developer.wunderlist.com) return no response (HTTP 000).
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Productivity
+- Task Management
+- To-Do
+- Berlin
+- Germany
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
