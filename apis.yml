@@ -22,7 +22,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-detail: Acquired by Microsoft June 2015; Wunderlist discontinued 6 May 2020; all domains (6wunderkinder.com, wunderlist.com, developer.wunderlist.com) return no response (HTTP 000).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
